@@ -1,0 +1,135 @@
+/* * {
+    display: flex;
+} */
+
+.rasm {
+    opacity: 0.7;
+}
+.samsung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(207, 84, 84);
+    font-size: 40px;
+    background-color: yellowgreen;
+}
+.bek{
+    font-size: 30px;
+    border-radius: 10%;
+    box-sizing: 2px solid red;
+    border: 2px solid red;
+    background-color: rgb(231, 228, 29);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("RASM.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Form Styles */
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  form h1{
+    text-shadow: 2px 2px 2px green;
+  }
+  
+  
+  /* Form input styles */
+  form input{
+    width: 100%;
+    height: 40px;
+    margin: 7px 0;
+    padding: 2px 5px;
+  }
+  #fname, #lname, #email, #pass {
+    border: none;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 7px;
+    color: green;
+    font-size: 20px;
+  }
+  #fname::placeholder,
+  #lname::placeholder,
+  #email::placeholder,
+  #pass::placeholder {
+    color: green;
+    font-size: 20px;
+  }
+  
+  form .login{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  form .via_google{
+    text-decoration: none;
+    border: 1px solid #2d80d2;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    background-color: #2d80d2;
+    border-radius: 5px;
+  }
+  form .to_login{
+    text-decoration: none;
+    color: black;
+  }
+  form  .register{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgb(39, 161, 39);
+    color: #ffffff;
+  }
+  form  .clear{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgb(223, 32, 15);
+    color: #ffffff;
+  }
+
+  .sam{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    padding: 4px;
+    font-size: 75px;
+    top: 800px;
+    left: 100px;
+    border-radius: 5%;
+  }
+
+  .jon{
+      width: 400px;
+      height: 500px;
+      margin: 85px;
+      padding: 15px;
+      background-color: white;
+  }
